@@ -1,0 +1,77 @@
+body{
+    background-color: #161616 !important;
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 500;
+}
+
+@media (min-width: 992px) {
+    .nav-link{
+        margin-left: 20px;
+    }
+    
+}
+
+.bg-dark{
+    background-color: #2E2E2E !important;
+}
+
+.btn{
+    border-radius: 0px !important;
+    padding: 10px 29px 10px 29px;
+    font-weight: 500;
+}
+
+.btn-light{
+    background-color: white !important;
+}
+
+.n-card{
+    margin-top: -43px;
+}
+
+.swiper-button-next,.swiper-button-prev{
+    position: relative;
+    top: 0%;
+    height: 25px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0px;
+    margin-top: 15px;
+}
+
+.swiper-button-next:after,.swiper-button-prev:after{
+    font-size: 14px;
+    color: black;
+}
+
+.swiper-button-prev,.swiper-container-rtl.swiper-button-next{
+    left: 0px;
+    right: auto;
+}
+
+.swiper-button-next,.swiper-container-rtl.swiper-button-prev{
+    left: 15px;
+}
+
+.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled{
+    opacity: 1;
+    background-color: #2e2e2e;
+}
+
+.swiper-button-next.swiper-button-disabled:after,.swiper-button-prev.swiper-button-disabled:after{
+    opacity: 1;
+    color: white;
+}
+
+.s-button{
+    display: flex;
+    align-items: center;
+}
+
+.hr-footer{
+    background: rgba(255, 255, 255, 0.2);
+}
